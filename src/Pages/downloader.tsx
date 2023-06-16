@@ -7,7 +7,7 @@ import sound from '../assets/icon/sound.svg'
 import AlertWarn from "../Components/atoms/alertWarn";
 import ButtonLoading from "../Components/atoms/buttonLoading";
 import Footer from "../Components/organism/footer";
-
+import arrowAnim from '../assets/icon/down-arrow.gif'
 type TODOS = {
     url: any; qualityLabel: string | number | bigint | boolean | object | ComponentChild[] | VNode<any> | null | undefined; container: string | number | bigint | boolean | object | ComponentChild[] | VNode<any> | null | undefined; 
     contentLength: number; 
@@ -59,7 +59,7 @@ console.log(dataAPI)
         <div className={'flex items-center h-full'}>
                 <section className={' w-full'}>
                 <h3 className={'text-center w-full text-4xl '}>URL Video Youtube</h3>
-                <div className={'w-full flex justify-center'}><img src={'/src/assets/icon/down-arrow.gif'} height={98} width={98} alt={'arrowgifdown'} /></div>
+                <div className={'w-full flex justify-center'}><img src={arrowAnim} height={98} width={98} alt={'arrowgifdown'} /></div>
                 <div className="form-control  items-center mt-2">
                     <label className="label">
                         <span className="label-text">Masukan disini</span>
