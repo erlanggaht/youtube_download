@@ -167,3 +167,10 @@ body {
     }
 
 }
+
+
+@media (max-width : 411px) {
+    .table {
+        transform: scale(.6);
+    }
+}

@@ -12,9 +12,9 @@ export default function Navbar() {
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
       </label>
       <ul tabIndex={0} className="menu menu-sm dropdown-content  bg-base mt-3 p-2 shadow rounded-box w-52 z-50  ">
-        <li className={' '}><a >Homepage</a></li>
-        <li className={' '}><a >Portfolio</a></li>
-        <li className={' '}><a >About</a></li>
+        <li><a href={'/'}>Homepage</a></li>
+        <li ><a href={'https://erlanggaht93.vercel.app'}>Portfolio</a></li>
+        <li ><a href={'https://erlanggaht.vercel.app'}>About</a></li>
       </ul>
     </div> : 
     <Link to='/'><div className={'p-2 hover:bg-yellowBase rounded-full'}><img src={arrowBack} alt={'arrowBack'} width={28} height={28} className={'cursor-pointer '}/></div></Link>}
